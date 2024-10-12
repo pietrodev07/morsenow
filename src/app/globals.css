@@ -1,16 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tilt+Neon&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-  font-family: "Bricolage Grotesque", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
 
 @layer utilities {
   .text-balance {
