@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@/styles/globals.css";
 import { Metadata } from "next";
 import { PropsWithChildren } from "react";
 import { Bricolage_Grotesque } from "next/font/google";
