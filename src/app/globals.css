@@ -64,7 +64,7 @@
   }
 
   body {
-    @apply bg-white text-black antialiased;
+    @apply bg-white text-black antialiased dark:bg-neutral-900 dark:text-neutral-300;
   }
 }
 
