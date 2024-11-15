@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { PropsWithChildren } from "react";
 import { Bricolage_Grotesque } from "next/font/google";
 import { Providers } from "@/components/theme-provider";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const font = Bricolage_Grotesque({ subsets: ["latin"] });
 
@@ -15,7 +16,10 @@ export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" className={font.className} suppressHydrationWarning>
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+          <ThemeToggle />
+        </Providers>
       </body>
     </html>
   );
