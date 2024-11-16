@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Morsenow",
+  name: "MorseNow",
   applicationName: "Morsenow",
   metadataBase: new URL("https://morsenow.vercel.app"),
   robots: { index: true, follow: true, googleBot: "index, follow" },
